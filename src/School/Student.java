@@ -35,7 +35,7 @@ public class Student {
         Student student2 = new Student("Kendrick Achebe", 456);
         System.out.println(student1);
         System.out.println(student2);
-        System.out.println("bob1 precedes bob2: " + student1.precedesById(student2)); // Should print true
-        System.out.println("bob2 precedes bob1: " + student2.precedesById(student1)); // Should print false
+        System.out.println("student1 precedes student2: " + student1.precedesById(student2)); // Should print true
+        System.out.println("student2 precedes student1: " + student2.precedesById(student1)); // Should print false
     }
 }
